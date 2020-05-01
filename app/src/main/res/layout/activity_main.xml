@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sec"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+
+        <Button
+            android:id="@+id/btnYeniHesap"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="35dp"
+            android:background="@drawable/round"
+            android:padding="25dp"
+            android:text="YENİ HESAP" />
+
+        <Button
+            android:id="@+id/btnHesapListesi"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="15dp"
+            android:background="@drawable/round"
+            android:padding="25dp"
+            android:text="HESAP LİSTESİ" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+
+        <Button
+            android:id="@+id/btnHesapKaldir"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="35dp"
+            android:background="@drawable/round"
+            android:padding="30dp"
+            android:text="HESAP SİL" />
+
+        <Button
+            android:id="@+id/btnYemekDuzenle"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="15dp"
+            android:background="@drawable/round"
+            android:padding="20dp"
+            android:text="HESAP DÜZENLE" />
+
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+
+
+        <Button
+            android:id="@+id/btnHakkinda"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@drawable/round"
+            android:padding="30dp"
+            android:text="İLETİŞİM" />
+    </GridLayout>
+
+</LinearLayout>
